@@ -50,3 +50,12 @@ MyClass::MyClass(int num)
     : MyClass {num, false} {
         
     }
+
+//Move constructor
+//from C++ 11
+//efficient
+//?
+
+//Lambda expr
+//capture list, parameter list, (optional) return type declaration, definition.
+[] () -> {return 5;}
